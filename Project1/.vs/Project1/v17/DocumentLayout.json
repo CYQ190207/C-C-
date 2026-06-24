@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\36025\\Desktop\\GitHub\\C-C-\\Project1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{854B8A98-A20F-4759-BF43-9B4BF6031F35}|Project1\\Project1.vcxproj|C:\\Users\\36025\\Desktop\\GitHub\\C-C-\\Project1\\Project1\\\u6E90.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{854B8A98-A20F-4759-BF43-9B4BF6031F35}|Project1\\Project1.vcxproj|solutionrelative:Project1\\\u6E90.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 544,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "\u6E90.c",
+              "DocumentMoniker": "C:\\Users\\36025\\Desktop\\GitHub\\C-C-\\Project1\\Project1\\\u6E90.c",
+              "RelativeDocumentMoniker": "Project1\\\u6E90.c",
+              "ToolTip": "C:\\Users\\36025\\Desktop\\GitHub\\C-C-\\Project1\\Project1\\\u6E90.c",
+              "RelativeToolTip": "Project1\\\u6E90.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-06-24T22:54:51.998Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
