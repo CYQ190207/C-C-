@@ -7,26 +7,26 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define MAX 100
+#define MAX 100     //最大存储学生信息的数量
 
 // 学生结构体
 typedef struct
 {
-    int id;
-    char name[20];
-    float score;
-    int rank;
+    int id;             //学号
+    char name[20];      //姓名
+    float score;//得分
+    int rank;//排名
 } Student;
 
 // 全局变量外部声明
-extern Student stu[MAX];
+extern Student stu[MAX];       
 extern int count;
 
 // 所有函数声明
 void load();
+void menu();
 void save();
 char* level(float score);
-void menu();
 void addStudent();
 void showStudent();
 void searchStudent();

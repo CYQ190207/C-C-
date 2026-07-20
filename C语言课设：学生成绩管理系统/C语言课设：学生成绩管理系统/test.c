@@ -1,27 +1,26 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 #include "project.h"
-
 int main()
 {
-    int choice;
-    load();
+    int choice;//选择你要进行的操作
+    load();//打开student.text文件
     while (1)
     {
-        menu();//操作界面
+        menu();//操作菜单界面
         scanf("%d", &choice);
         switch (choice)
         {
         case 1:
-            addStudent();//添加新学生信息到数组
+            addStudent();            //添加新学生信息到数组
             break;
         case 2:
-            showStudent();//遍历打印全部学生信息
+            showStudent();   //遍历打印全部学生信息
             break;
         case 3:
             searchStudent();//根据学号查询单个学生详细信息
             break;
         case 4:
-            updateStudent();//根据学号修改指定学生的成绩
+            updateStudent();   //根据学号修改指定学生的成绩
             break;
         case 5:
             deleteStudent();//根据学号删除对应学生数据
@@ -45,3 +44,29 @@ int main()
     }
     return 0;
 }
+
+/*
+void menu()
+{
+    printf("\n");
+    printf("+==================================================+\n");
+    printf("|                                                  |\n");
+    printf("|             学 生 成 绩 管 理 系 统              |\n");
+    printf("|                                                  |\n");
+    printf("+==================================================+\n");
+    printf("|  1. 添加学生信息                                 |\n");
+    printf("|  2. 显示所有学生信息                             |\n");
+    printf("|  3. 查询学生信息                                 |\n");
+    printf("|  4. 修改学生成绩                                 |\n");
+    printf("|  5. 删除学生信息                                 |\n");
+    printf("|  6. 成绩排序与排名                               |\n");
+    printf("|  7. 班级成绩统计                                 |\n");
+    printf("|  8. 保存数据                                     |\n");
+    printf("|  0. 退出系统                                     |\n");
+    printf("+==================================================+\n");
+    printf("请输入功能编号：");
+}
+
+*/
+
+
