@@ -1,0 +1,7 @@
+﻿  FileName.c
+C:\Users\36025\Desktop\GitHub\C-C-\暑假C语言学习第2天\暑假C语言学习第2天\FileName.c(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\36025\Desktop\GitHub\C-C-\暑假C语言学习第2天\暑假C语言学习第2天\FileName.c(27,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+      C:\Users\36025\Desktop\GitHub\C-C-\暑假C语言学习第2天\暑假C语言学习第2天\FileName.c(27,9):
+      请考虑在格式字符串中使用“%zu”
+  
+  暑假C语言学习第2天.vcxproj -> C:\Users\36025\Desktop\GitHub\C-C-\暑假C语言学习第2天\x64\Debug\暑假C语言学习第2天.exe
